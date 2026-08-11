@@ -1,0 +1,184 @@
+{
+  "_schema": {
+    "work_id": "MAQAYIS-AL-LUGHA",
+    "author_id": "IBN-FARIS",
+    "schema_version": "1.0.0",
+    "pipeline_run_id": "225e824b-5f13-426a-8d49-c62e63361cb3",
+    "generated_at": "2026-08-06T03:03:37.009823+00:00",
+    "notice": "ONTOLOGY_CANDIDATE_ONLY"
+  },
+  "entry": {
+    "entry_id": "05.pdf:p158:r002",
+    "root_letters": "كتب",
+    "entry_kind": "ROOT_ENTRY",
+    "bab_letter_raw": "الباء",
+    "bab_letter_corrected": "الكاف",
+    "body_line_ids": [
+      "05.pdf:p158:l0010",
+      "05.pdf:p158:l0011",
+      "05.pdf:p158:l0012",
+      "05.pdf:p158:l0013"
+    ],
+    "poetry_line_ids": [
+      "05.pdf:p158:l0014",
+      "05.pdf:p158:l0015"
+    ]
+  },
+  "layer_summary": {
+    "entry_kind": "ROOT_ENTRY",
+    "source_evidence": true,
+    "root_identity_match": "NORMALIZED_MATCH",
+    "source_claim_kind": "POSITIVE_ORIGIN",
+    "origins": 1,
+    "branches": 0,
+    "usage_evidence": 0,
+    "lexical_claim_graph": true,
+    "semantic_origin_graph": true,
+    "ontology_candidate_profile": false,
+    "ontology_buildable": false,
+    "residuals": [
+      "TEXT_VERIFICATION_FAILED"
+    ]
+  },
+  "layer_1_source_evidence": {
+    "source_id": "SE:bf457e9fd41f",
+    "work_id": "MAQAYIS-AL-LUGHA",
+    "author_id": "IBN-FARIS",
+    "passage_id": "PASS:913c363903aa",
+    "entry_id": "05.pdf:p158:r002",
+    "line_ids": [
+      "05.pdf:p158:l0009",
+      "05.pdf:p158:l0010",
+      "05.pdf:p158:l0011",
+      "05.pdf:p158:l0012",
+      "05.pdf:p158:l0013",
+      "05.pdf:p158:l0014",
+      "05.pdf:p158:l0015",
+      "05.pdf:p158:l0016",
+      "05.pdf:p158:l0017",
+      "05.pdf:p158:l0018",
+      "05.pdf:p158:l0019",
+      "05.pdf:p158:l0020",
+      "05.pdf:p158:l0021"
+    ],
+    "page_number": 158,
+    "raw_ocr_text": "إلى شءٍ. من ذلك الكتابُ والكتابة. يقال: كتبت الكتابَ أكتُبه كَتْبًا. ويقولون : كتبتُ البَغلَة ، إذا جعتُ شُفرَى رَحِها بحَلّمة . قال : لا تأمنَنَّ فَزارِبَا حَلَاتَ به على قَلُوصِك وا كتُبْهَا بأسيار (4) والكُتْبَةُ : انُرْزَة، وإنما سمّيت بذلك لحعها المخروز . والكُتُب: أُكْرَز .",
+    "normalized_text": "إلى شءٍ. من ذلك الكتابُ والكتابة. يقال: كتبت السكتابَ أكتُبه كَتْبًا. ويقولون : كتبتُ البَغلَة ، إذا جعتُ شُفرَى رَحِها بحَلّمة . قال : لا تأمنَنَّ فَزارِبًا حَلَاتَ به على قَلُوصِك وا كتُبْهَا بأسيار (4) والكُتْبَةُ : انُرْزَة، وإنما سمّيت بذلك لمعها المخروز . والكُتُب: أُكَرَز .",
+    "human_corrected_text": null,
+    "best_text": "إلى شءٍ. من ذلك الكتابُ والكتابة. يقال: كتبت السكتابَ أكتُبه كَتْبًا. ويقولون : كتبتُ البَغلَة ، إذا جعتُ شُفرَى رَحِها بحَلّمة . قال : لا تأمنَنَّ فَزارِبًا حَلَاتَ به على قَلُوصِك وا كتُبْهَا بأسيار (4) والكُتْبَةُ : انُرْزَة، وإنما سمّيت بذلك لمعها المخروز . والكُتُب: أُكَرَز .",
+    "ocr_confidence": 0.30000001192092896,
+    "text_review_state": "TEXT_CANDIDATE",
+    "coverage_state": "COVERED"
+  },
+  "layer_1_root_identity": {
+    "source_root_candidate": "كتب",
+    "source_bab_letter": "الباء",
+    "corrected_bab_letter": "الكاف",
+    "heading_type": "ROOT_ENTRY",
+    "root_identity_match": "NORMALIZED_MATCH",
+    "is_resolved": true,
+    "match_confidence": 0.9,
+    "correction_review_state": "MACHINE_CANDIDATE",
+    "hokom_canonical_root_ref": null
+  },
+  "layer_1_extraction_meta": {
+    "extraction_method": "RULE_BASED",
+    "review_state": "MACHINE_CANDIDATE",
+    "evidence_status": "MACHINE_SOURCE_CLAIM_CANDIDATE",
+    "extraction_confidence": 0.30000001192092896,
+    "residuals": [
+      "TEXT_VERIFICATION_FAILED"
+    ],
+    "blocking_residuals": [
+      "TEXT_VERIFICATION_FAILED"
+    ],
+    "is_ontology_buildable": false
+  },
+  "layer_2_lexical_claim_graph": {
+    "graph_id": "LCG:f019d36cb8",
+    "entry_id": "05.pdf:p158:r002",
+    "claim_nodes": [
+      {
+        "claim_node_id": "CLM:603ba87c2c",
+        "claim_type": "RAW_SEGMENT",
+        "raw_text": "إلى شءٍ.",
+        "term": null,
+        "definition": null,
+        "authority": null,
+        "assertion_strength": "UNKNOWN",
+        "origin_index": 0
+      },
+      {
+        "claim_node_id": "CLM:e2ffc625c5",
+        "claim_type": "INTRO_EXAMPLE",
+        "raw_text": "الكتابُ والكتابة.",
+        "term": null,
+        "definition": null,
+        "authority": null,
+        "assertion_strength": "ASSERTED",
+        "origin_index": 0
+      },
+      {
+        "claim_node_id": "CLM:257944a7e0",
+        "claim_type": "RAW_SEGMENT",
+        "raw_text": ": كتبت السكتابَ أكتُبه كَتْبًا.",
+        "term": null,
+        "definition": null,
+        "authority": null,
+        "assertion_strength": "UNKNOWN",
+        "origin_index": 0
+      },
+      {
+        "claim_node_id": "CLM:f48338ba6b",
+        "claim_type": "RAW_SEGMENT",
+        "raw_text": ": كتبتُ البَغلَة ، إذا جعتُ شُفرَى رَحِها بحَلّمة . قال : لا تأمنَنَّ فَزارِبًا حَلَاتَ به على قَلُوصِك وا كتُبْهَا بأسيار (4) والكُتْبَةُ : انُرْزَة، وإنما سمّيت بذلك لمعها المخروز . والكُتُب: أُكَرَز .",
+        "term": null,
+        "definition": null,
+        "authority": null,
+        "assertion_strength": "UNKNOWN",
+        "origin_index": 0
+      }
+    ],
+    "term_nodes": [],
+    "authority_nodes": [],
+    "evidence_nodes": [],
+    "edges": []
+  },
+  "layer_3_semantic_origin_graph": {
+    "graph_id": "SOG:c813bc410b",
+    "entry_id": "05.pdf:p158:r002",
+    "root_origin_nodes": [
+      {
+        "node_id": "RON:a9b4456d02",
+        "origin_index": 0,
+        "raw_text": "أصل محيح"
+      }
+    ],
+    "branch_nodes": [],
+    "exception_nodes": [],
+    "cross_ref_nodes": [],
+    "edges": [],
+    "validate_dag": true
+  },
+  "layer_3_lexical_origin_records": [
+    {
+      "origin_id": "ORI:1f7eb30133",
+      "origin_index": 0,
+      "origin_type": "SOUND_ROOTS",
+      "raw_origin_text": "أصل محيح",
+      "semantic_nucleus": "محيح",
+      "semantic_kind_candidate": "UNKNOWN",
+      "abstraction_level": "UNKNOWN",
+      "temporal_profile_candidate": "UNKNOWN",
+      "gloss_method": "SOURCE_EXPLICIT",
+      "origin_gloss_candidate": "محيح"
+    }
+  ],
+  "layer_3_branch_records": [],
+  "layer_4_ontology_candidate_profile": {
+    "status": "BLOCKED",
+    "notice": "ONTOLOGY_CANDIDATE_ONLY",
+    "reason": "blocking residual present — human review required",
+    "profile": null
+  }
+}

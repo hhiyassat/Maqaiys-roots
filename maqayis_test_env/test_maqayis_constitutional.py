@@ -756,6 +756,10 @@ def test_ag11_review_req_emits_origin_id():
     from maqayis_constitutional_registry import constitutional_lookup
     from types import SimpleNamespace
     # حمش is FOUND_REVIEW_REQUIRED_UNRESOLVED in covered volumes
+    import pytest
+    from maqayis_constitutional_registry import _CORRECTED, _ORIGINAL
+    if not (_CORRECTED.exists() or _ORIGINAL.exists()):
+        pytest.skip("AG11 needs the Maqaees corpus (data/maqaees/full/root_entries*.jsonl), not in this checkout")
     result = constitutional_lookup("حمش")
     assert result.kind in (
         LookupResultKind.FOUND_REVIEW_REQUIRED_UNRESOLVED,
